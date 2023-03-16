@@ -1,6 +1,6 @@
 ## [std::thread](https://en.cppreference.com/w/cpp/thread/thread)
 
-* 每个程序有一个执行 main() 函数的主线程，将函数添加为 [std::thread](https://en.cppreference.com/w/cpp/thread/thread) 的参数即可启动另一个线程，两个线程会同时运行
+* 每个程序有一个执行 main() 函数的主线程，将函数添加为 [std::thread](https://en.cppreference.com/w/cpp/thread/thread) 的参数即可启动另一个线程，两个线程会同时运行。
 
 ```cpp
 #include <iostream>
